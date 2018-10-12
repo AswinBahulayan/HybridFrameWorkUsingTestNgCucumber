@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>E:\PatternObjectModel\testng.xml</span>
+                    <span>C:\Users\aswin\Desktop\PatternObjectModel\Createlead.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.TC001_CreateLead" hash-for-method="createLead(Qeagle, Babu, M, babu@testleaf.com)">createLead(Qeagle, Babu, M, babu@testleaf.com)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC001_CreateLead" hash-for-method="createLead(Qeagle, Babu, M, babu@testleaf.com)">createLead(Qeagle, Babu, M, babu@testleaf.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,7 +120,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.TC001_CreateLead</span>
+              <span class="class-name">testcases.TC001_CreateLead</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -136,21 +136,21 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\PatternObjectModel\testng.xml</span>
+            <span class="header-content">C:\Users\aswin\Desktop\PatternObjectModel\Createlead.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;5&quot; name=&quot;Suite&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;parameter name=&quot;uname&quot; value=&quot;DemoCSR&quot;/&gt;
   &lt;parameter name=&quot;pwd&quot; value=&quot;crmsfa&quot;/&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;http://leaftaps.com/opentaps&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;5&quot; name=&quot;leads&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.TC001_CreateLead&quot;/&gt;
+      &lt;class name=&quot;testcases.TC001_CreateLead&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- leads --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -162,7 +162,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">leads (1 class)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,13 +191,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createLead')
-data.setCell(0, 2, 'tests.TC001_CreateLead')
-data.setCell(0, 3, 6130);
+data.setCell(0, 2, 'testcases.TC001_CreateLead')
+data.setCell(0, 3, 5808);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -223,34 +223,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.TC001_CreateLead</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.TC001_CreateLead</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">startResult</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setData</span>
-                <span class="method-start">355 ms</span>
+                <span class="method-start">651 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">startTestCase</span>
-                <span class="method-start">1077 ms</span>
+                <span class="method-start">1424 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">login(http://leaftaps.com/opentaps, DemoCSR, crmsfa)</span>
-                <span class="method-start">1077 ms</span>
+                <span class="method-start">1432 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createLead(Qeagle, Babu, M, babu@testleaf.com)</span>
-                <span class="method-start">9508 ms</span>
+                <span class="method-start">10952 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">15641 ms</span>
+                <span class="method-start">16763 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">stopResult</span>
-                <span class="method-start">16453 ms</span>
+                <span class="method-start">17935 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -6,7 +6,9 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class DataInputProvider{
+import wdMethods.SeMethods;
+
+public class DataInputProvider extends SeMethods{
 
 	public static String[][] getSheet(String dataSheetName) {
 
